@@ -20,7 +20,7 @@ class FirebaseController extends Controller
 
     public function store(Request $request){
 
-    	$serviceAccount = ServiceAccount::fromJsonFile(__DIR__.'/demo2-5d857-firebase-adminsdk-3qcdb-fbdd91ea4f.json');
+    	$serviceAccount = ServiceAccount::fromJsonFile(__DIR__.'/sapk-8af98-firebase-adminsdk-rwh5y-e89c402d4b.json');
 		$firebase = (new Factory)
 	    ->withServiceAccount($serviceAccount)
 	    ->create();
